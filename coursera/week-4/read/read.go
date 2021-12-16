@@ -29,8 +29,8 @@ import (
 
 func main() {
 	type name struct {
-		fname string `valid:MaxSize(20)`
-		lname string `valid:MaxSize(20)`
+		fname string //`valid:MaxSize(20)`
+		lname string //`valid:MaxSize(20)`
 	}
 
 	var textFile string
